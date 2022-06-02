@@ -84,7 +84,7 @@ export default function Coinpage() {
     fetchCoin();
   
   
-  }, [])
+  },)
   
 if(!coin) return <LinearProgress style={{backgroundColor:"gold"}}/>
 

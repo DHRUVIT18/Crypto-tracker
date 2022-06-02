@@ -3,7 +3,7 @@ import {useState,useEffect} from "react"
 import { CryptoState } from '../CryptoContext';
 import axios from "axios"
 import { HistoricalChart } from '../config/api';
-import { CircularProgress, createTheme, Divider, makeStyles, MuiThemeProvider } from '@material-ui/core';
+import { CircularProgress, createTheme , makeStyles, MuiThemeProvider } from '@material-ui/core';
 import {Line} from "react-chartjs-2"
 import SelectButton from './SelectButton';
 

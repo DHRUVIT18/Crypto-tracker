@@ -54,7 +54,7 @@ const fetchCoins=async()=>{
      fetchCoins();
     
      
-    }, [currency]);
+    },[currency]);
 
     const darkTheme=createTheme({
         palette:{
@@ -129,7 +129,7 @@ const fetchCoins=async()=>{
                         fontFamily:"Montserrat",
                     }}
                     key={head}
-                    align={head=="Coin"?"":"right"}
+                    align={head==="Coin"?"":"right"}
                     >
                         {head}
                     </TableCell>

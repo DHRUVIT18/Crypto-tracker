@@ -13,9 +13,6 @@ import { doc, setDoc } from 'firebase/firestore';
 const useStyles = makeStyles((theme)=>({
  container:{
      width:350,
-     [theme.breakpoints.down("md")]:{
-      width:"50%"
-    },
      padding:25,
      height:"100%",
      display:"flex",

@@ -1,6 +1,7 @@
 import { makeStyles } from '@material-ui/styles';
 import { BrowserRouter, Route,Routes } from 'react-router-dom';
 import './App.css';
+import Alert from './components/Alert';
 import Header from './components/Header';
 import Coinpage from './Pages/Coinpage';
 import Homepage from './Pages/Homepage';
@@ -34,6 +35,7 @@ const classes=useStyle();
     </Routes>
      
      </div>
+     <Alert/>
    </BrowserRouter>   
   );
 }

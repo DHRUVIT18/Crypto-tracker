@@ -12,7 +12,7 @@ import { doc, setDoc } from 'firebase/firestore';
 
 const useStyles = makeStyles((theme)=>({
  container:{
-     width:350,
+     width:270,
      padding:25,
      height:"100%",
      display:"flex",

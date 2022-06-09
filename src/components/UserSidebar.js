@@ -10,9 +10,12 @@ import { numberWithCommas } from './Carousel';
 import {AiFillDelete} from "react-icons/ai"
 import { doc, setDoc } from 'firebase/firestore';
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme)=>({
  container:{
      width:350,
+     [theme.breakpoints.down("md")]:{
+      width:"50%"
+    },
      padding:25,
      height:"100%",
      display:"flex",
@@ -65,7 +68,7 @@ const useStyles = makeStyles({
    boxShadow:"0 0 3px black",
  }
 
-});
+}));
 
 export default function UserSidebar() {
   const classes = useStyles();
